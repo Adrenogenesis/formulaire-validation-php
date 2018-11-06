@@ -1,0 +1,82 @@
+input { 
+    display: inline; 
+}
+
+input[type=text] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    }
+
+input[type=email] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+
+input[type=tel] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+
+input[type=date] {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+}
+
+
+textarea {
+    width: 80%;
+    height: 150px;
+    margin: -16px 0;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: transparent;
+   }
+
+ input[type=submit] {
+    margin-left: 0%;
+   }
+
+.button {
+    display: inline-block;
+    width: 200px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    color: purple;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+   ::placeholder {
+    color: black;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: black;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:black;
+}

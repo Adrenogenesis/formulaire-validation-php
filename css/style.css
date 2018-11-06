@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url(Roboto);
+}
+
+
+body {
+	height: auto;
+	width: auto;
+	/* to centre page on screen*/
+	margin-left: auto;
+	align-self: center;
+	border: 1px solid black;
+	font-family: 'Roboto';
+
+
+}
+
+.avatar {
+	width: 200px;
+	height: 200px;
+	
+	display: inline-block;
+}
+
+.container {
+	width: 100%;
+	align-content: center;
+}
+
+h1 {
+    font-size: 48px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+h2 {
+    color: white;
+    background-color: darkorange;
+    font-size: 32px;
+    font-family: "Quicksand Regular";       
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 2px solid red;
+    text-align: center;
+   
+   }
+
+h3 {
+	margin-left: 60px;
+}
+
+img {
+	height: auto;
+	width: 100%;
+	
+	box-shadow: 2px 2px 2px rgb(116, 114, 114);
+     
+}
+
+header {
+	align-content: center;
+	width: 200px;
+	height: 200px;
+	margin-left: 42%;
+	display: inline-block;
+}
+
+footer {
+	
+}
+
+p {
+	margin-left: 60px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+.tab {
+    margin : 80px;
+}
+
+.col1{
+    width: 100px;
+	height: 50px;
+}
+
+.col2{
+    width: 200px;
+}
+
+.col3 {
+    width: auto;
+}
+
+
+  ol {
+    border-left: 3px solid blue;
+    height: 60px;
+    margin-left: 50px;
+    padding-left: 35px;
+  }
+
+  ul.a {list-style-type: square;}
+
+  .contact {
+      width: 100%;
+      position: relative;
+      height: auto;
+      display: flex;
+      justify-content: center;
+  }
+
